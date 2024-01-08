@@ -1,0 +1,6 @@
+ls -1 | grep "\.php$"
+ls -1 | grep "^.[eE]"
+ls -1 | grep "^[a-eA-E]"
+ls -1 | grep "^[^aeiouAEIOU]"
+ls -1 | grep -v "\.php$"
+ls -1 | grep -v -e "\.txt$" -e "\.php$"
